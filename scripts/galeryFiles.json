@@ -1,0 +1,81 @@
+{
+    "images": 
+    [
+        {
+            "id": "art piece 1",
+            "title": "cool piece",
+            "image": "img/IMG_5191.JPG"
+        },
+        {
+            "id": "mega art",
+            "title": "mega piece",
+            "image": "img/IMG_5415.JPG"
+        },
+        {
+            "id": "mega art 2",
+            "title": "mega piece 2",
+            "image": "img/IMG_5471.JPG"
+        },
+        {
+            "id": "mega 3",
+            "title": "mega 3",
+            "image": "img/IMG_5567.JPG"
+        },
+        {
+            "id": "mega 4",
+            "title": "mega 4",
+            "image": "img/IMG_5568.JPG"
+        },
+        {
+            "id": "mega 5",
+            "title": "mega 5",
+            "image": "img/IMG_5590.JPG"
+        },
+        {
+            "id": "mega 6",
+            "title": "mega 6",
+            "image": "img/IMG_5593.JPG"
+        },
+        {
+            "id": "mega 7",
+            "title": "mega 7",
+            "image": "img/IMG_5594.JPG"
+        },
+        {
+            "id": "mega 8",
+            "title": "mega 8",
+            "image": "img/IMG_5595.JPG"
+        },
+        {
+            "id": "mega 9",
+            "title": "mega9",
+            "image": "img/IMG_5596.JPG"
+        },
+        {
+            "id": "mega 10",
+            "title": "mega 10",
+            "image": "img/IMG_5597.JPG"
+        },
+        {
+            "id": "mega 11",
+            "title": "mega 11",
+            "image": "img/IMG_5598.JPG"
+        },
+        {
+            "id": "mega 12",
+            "title": "mega 12",
+            "image": "img/IMG_5602.JPG"
+        },
+        {
+            "id": "mega 13",
+            "title": "mega 13",
+            "image": "img/IMG_5603.JPG"
+        },
+        {
+            "id": "mega 14",
+            "title": "mega 14",
+            "image": "img/IMG_5604.JPG"
+        }
+
+    ]
+}

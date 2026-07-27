@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS_NAT/Nat_CSS.css" rel="stylesheet" type="text/css">
+        <!-- <link href="index.html" rel="stylesheet" type="text/html">  -->
+
+    </head>
+    <body class="poopcum">
+        <h1>Gallery</h1>
+
+        <ul>
+            <li><a href="index.html">About</a> </li>
+            <li><a href="gallery.html">Galery</a> </li>
+            <!-- <li><a href="Commisions.html">Commissions</a></li> -->
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    <!-- -->
+
+        
+        <div id="img-list"></div>
+
+        <div id="bigPic">
+            <div id="myModel" class="model">
+                <span class="close" onclick="closeModel()">&times;</span>
+                <img class="model-content" id="modelImage">
+            </div>
+        </div>
+<div id="buttonPlace" onclick="popOut(document.getElementById('modelImage').src)">
+    Open image
+</div>
+        <script src="scripts/imageScript.js"></script>
+    </body>
+</html>

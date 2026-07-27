@@ -1,0 +1,116 @@
+h1
+{
+    color: rgb(92, 1, 42);
+    font-family: myfont;
+    display: flex;
+    justify-content: center;
+    
+}
+.poopcum
+{
+    background-color: rgb(202, 83, 117);
+
+}
+#img-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 20px;
+    gap: 5px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+ .galery-list img {
+     width: 100%;
+     height: auto;
+     display: block;
+ }
+ div
+ {
+    .myModel{
+        max-width: 50px;
+    }
+ } 
+ p{
+    font-family: myfont;
+    display: flex;
+    justify-content: center;
+ }
+ body{
+    font-family: "Noto Sans Mende Kikakui";
+    display: flex;
+    flex-direction: column;
+
+ }
+ @font-face {
+    font-family: myFont; /* set name */
+    src: url(../Korigan_ITC_Bold.otf); /* url of the font */
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3b0000;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+  margin: 10px;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+ul li a:active {
+  background-color: #04AA6D;
+}
+#buttonPlace {
+    width:10em;
+    height: 10em;
+    display:none;
+    color: #002d1d;
+    border: 10px;
+    border-color: #04AA6D;
+    margin:10px;
+    background-color: #04AA6D;
+ }
+#myModel img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+#intro
+{
+    width: 50%;
+    font-size: 1.5em;
+}
+#introContainer{
+    display: flex;
+    justify-content: center;
+}
+#linkButton{
+    border-radius: 15%;
+    background-color: #3b0000;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    height: 40%;
+    margin: 0.5em;
+    padding: 1em;
+}
+#linkText{
+    color:azure;
+}
+.images{
+    width: 100%;
+}
