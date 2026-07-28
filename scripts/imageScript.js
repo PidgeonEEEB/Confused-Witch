@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
             imgItem.classList.add('galery-list');
             imgItem.innerHTML = `
                     <img src="${image.image}" 
-                    onclick="popOut('${image.image}')" 
+                    onclick="openModel('${image.image}')" 
                     alt="${image.title}">
                 `;
 
@@ -31,10 +31,9 @@ function openModel(imageSrc)
 {
     let model = document.getElementById('myModel');
     let modelImage = document.getElementById('modelImage');
-    model.style.display = "block";
+    model.style.display = "flex";
     modelImage.src = imageSrc;
-    let button = document.getElementById('buttonPlace');
-    button.style.display = "block";
+
 
 };
 

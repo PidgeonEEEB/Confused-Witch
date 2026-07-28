@@ -74,21 +74,24 @@ ul li a:hover {
 ul li a:active {
   background-color: #04AA6D;
 }
-#buttonPlace {
-    width:10em;
-    height: 10em;
-    display:none;
-    color: #002d1d;
-    border: 10px;
-    border-color: #04AA6D;
-    margin:10px;
-    background-color: #04AA6D;
- }
-#myModel img{
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
+
+#myModel{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+
+    justify-content: center;
+    align-items: center;  
 }
+
 #intro
 {
     width: 50%;
@@ -113,4 +116,11 @@ ul li a:active {
 }
 .images{
     width: 100%;
+}
+#modelImage { 
+    max-width: 95vw; 
+    max-height: 95vh; 
+    width: auto; 
+    height: auto; 
+    object-fit: contain; 
 }
