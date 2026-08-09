@@ -4,67 +4,80 @@
         {
             "id": "art piece 1",
             "title": "cool piece",
-            "image": "img/IMG_5191.JPG"
+            "image": "img/IMG_5191.JPG",
+            "description": ""
         },
         {
             "id": "mega art",
             "title": "mega piece",
-            "image": "img/IMG_5415.JPG"
+            "image": "img/IMG_5415.JPG",
+            "description": ""
         },
         {
             "id": "mega art 2",
             "title": "mega piece 2",
-            "image": "img/IMG_5471.JPG"
+            "image": "img/IMG_5471.JPG",
+            "description": ""
         },
         {
             "id": "mega 3",
             "title": "mega 3",
-            "image": "img/IMG_5567.JPG"
+            "image": "img/IMG_5567.JPG",
+            "description": ""
         },
         {
             "id": "mega 4",
             "title": "mega 4",
-            "image": "img/IMG_5568.JPG"
+            "image": "img/IMG_5568.JPG",
+            "description": ""
         },
         {
             "id": "mega 5",
             "title": "mega 5",
-            "image": "img/IMG_5590.JPG"
+            "image": "img/IMG_5590.JPG",
+            "description": ""
         },
         {
             "id": "mega 6",
             "title": "mega 6",
-            "image": "img/IMG_5593.JPG"
+            "image": "img/IMG_5593.JPG",
+            "description": ""
         },
         {
             "id": "mega 7",
             "title": "mega 7",
-            "image": "img/IMG_5594.JPG"
+            "image": "img/IMG_5594.JPG",
+            "description": ""
         },
         {
             "id": "mega 8",
             "title": "mega 8",
-            "image": "img/IMG_5595.JPG"
+            "image": "img/IMG_5595.JPG",
+            "description": ""
         },
         {
             "id": "mega 9",
             "title": "mega9",
-            "image": "img/IMG_5596.JPG"
+            "image": "img/IMG_5596.JPG",
+            "description": ""
         },
         {
             "id": "mega 10",
             "title": "mega 10",
-            "image": "img/IMG_5597.JPG"
+            "image": "img/IMG_5597.JPG",
+            "description": ""
         },
         {
             "id": "mega 11",
             "title": "mega 11",
-            "image": "img/IMG_5598.JPG"
+            "image": "img/IMG_5598.JPG",
+            "description": ""
         },
         {
             "id": "mega 12",
             "title": "mega 12",
-            "image": "img/IMG_5602.JPG"
+            "image": "img/IMG_5602.JPG",
+            "description": ""
         }
 
     ]

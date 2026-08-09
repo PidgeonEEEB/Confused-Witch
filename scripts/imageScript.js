@@ -16,12 +16,16 @@ document.addEventListener("DOMContentLoaded", function () {
         images.forEach(image => {
             const imgItem = document.createElement('div');
             imgItem.classList.add('galery-list');
-            imgItem.innerHTML = `
-                    <img src="${image.image}" 
-                    onclick="openModel('${image.image}')" 
-                    alt="${image.title}">
-                `;
+            const img = document.createElement('img');
 
+            img.src = image.image;
+            img.alt = image.title;
+
+            img.onclick = function () { 
+                openModel(image);
+             };
+
+            imgItem.appendChild(img);
             imgList.appendChild(imgItem);
         });
     }
@@ -31,8 +35,20 @@ function openModel(imageSrc)
 {
     let model = document.getElementById('myModel');
     let modelImage = document.getElementById('modelImage');
+    let descr = document.getElementById('description2');
     model.style.display = "flex";
-    modelImage.src = imageSrc;
+    modelImage.src = imageSrc.image;
+
+    const descItem = document.createElement('p');
+    descItem.classList.add('description2');
+    descItem.innerHTML = `${model.description}`;
+    if(imageSrc.description != null)
+    {
+        descr.innerHTML = `${imageSrc.description}`;
+    }
+    else{
+        description.innerHTM = ` `;
+    } 
 
 
 };
@@ -45,6 +61,4 @@ function closeModel()
 {
     let model = document.getElementById("myModel");
     model.style.display = "none";
-    let button = document.getElementById('buttonPlace');
-    button.style.display = "none";
 };

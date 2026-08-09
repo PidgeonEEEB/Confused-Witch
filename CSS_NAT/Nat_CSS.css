@@ -124,3 +124,7 @@ ul li a:active {
     height: auto; 
     object-fit: contain; 
 }
+#description2{
+    background-color: #3b0000;
+    color: aliceblue;
+}
